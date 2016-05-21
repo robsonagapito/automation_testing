@@ -190,19 +190,3 @@ end
 Then /^show me the page$/ do
   save_and_open_page
 end
-
-
-###############
-
-# When(/^I searching "([^"]*)"$/) do |arg1|
-#   step "When I fill in \"suggestion-search\" with \"#{arg1}\""
-#   step "When I press \"Procurar\""  
-# end
-
-# When(/^I add one "([^"]*)" in the cart$/) do |arg1|
-#   pending # Write code here that turns the phrase above into concrete actions
-# end
-
-# When(/^I open my cart$/) do
-#   pending # Write code here that turns the phrase above into concrete actions
-# end
