@@ -1,6 +1,3 @@
-# 
-Projeto de testes utilizando Cucumber,  Capybara e HTTParty
-
 Automation Testing
 ==================
 
@@ -12,6 +9,7 @@ You need:
 ---------
 
 - Have RVM installed
+- Have Bundler installed
 - To be possible to intall ruby 2.1.3
 - Clone the project
 - Run Bundle (bundle install)
@@ -22,7 +20,7 @@ How to run:
 -----------
 
 * Exercise 1 (BDD):	
-** USER="robsonagapito" PASS="agapito1234" bundle exec cucumber features/steps/walmart_ui_steps.feature -p testers
+** USER="user-name" PASS="password" bundle exec cucumber features/steps/walmart_ui_steps.feature -p testers
 
 * Exercise 2 (API):	
-** rspec spec
+** bundle exec rspec spec
