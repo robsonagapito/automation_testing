@@ -20,7 +20,7 @@ How to run:
 -----------
 
 * Exercise 1 (BDD):	
-** USER="user-name" PASS="password" bundle exec cucumber features/steps/walmart_ui_steps.feature -p testers
+	* USER="user-name" PASS="password" bundle exec cucumber features/steps/walmart_ui_steps.feature -p testers
 
 * Exercise 2 (API):	
-** bundle exec rspec spec
+	* bundle exec rspec spec
